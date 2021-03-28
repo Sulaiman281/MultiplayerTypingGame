@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.types.Views.TestPage">
+   <children>
+      <TextFlow fx:id="textFlow" prefHeight="150.0" prefWidth="600.0" style="-fx-border-color: rgb(50,200,250); -fx-border-width: 4;" />
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+         <children>
+            <TextField fx:id="text_input" prefHeight="50.0" prefWidth="390.0" />
+            <Button fx:id="new_game" mnemonicParsing="false" text="new game">
+               <font>
+                  <Font name="Bodoni MT" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
